@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: 'Orbitron', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Orbitron', sans-serif;
+}
+a {
+	outline: none !important;
+}
+/*-----Header & Banner Starts-------*/
+.navbar-brand {
+    width:150px;
+    height:60px;
+    margin-top:5px;
+}
+.navbar-brand:hover {
+	color: #EB233C;
+}
+
+
+.navbar-toggle {
+	background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+	background-color: RGBA(0, 0, 0, 0.48);
+}
+
+.mynav {
+	transition: all 0.8s ease-in;
+	background: #081624 none repeat scroll 0% 0%;
+    background: linear-gradient(45deg, #040422 0%, #501755 100%);
+    height:70px;
+}
+.mynav li a {
+	font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1.5px ;
+	font-size: 14px;
+	font-weight: 400;
+    height:70px;
+    
+}
+
+.nav > li > a:focus, .nav > li > a {
+	color: #E1DBDB;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	background-color: #081624;
+	color: white;
+	border-bottom: 2px solid white;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+
+
+
+/* ---Footer---*/
+.footer-section {
+	text-align: center;
+	background: #330d38;
+	background: -webkit-linear-gradient(left, #330d38 0%, #190d36 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#330d38), to(#190d36));
+	background: -o-linear-gradient(left, #330d38 0%, #190d36 100%);
+	background: linear-gradient(to right, #330d38 0%, #190d36 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#330d38', endColorstr='#190d36', GradientType=1);
+	
+}
+
+.footer-section .container {
+	position: relative;
+	padding: 60px 15px 25px;
+}
+.footer-menu {
+	padding-top: 62px;
+}
+
+.footer-menu li:last-child a {
+	margin-right: 0;
+}
+
+.footer-social {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.footer-social a:first-child {
+	margin-left: 0;
+}
+
+.copyright {
+	font-size: 12px;
+	font-weight: 500;
+	color: #9190a5;
+	opacity: 0.20;
+}
+
+.copyright a {
+	color: #9190a5;
+}
+
+.copyright a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+/*-----Contact Starts-------*/
+
+@media (min-width:0px) and (max-width: 600px) {
+.bg-overlay {
+	padding: 180px 0 120px;
+}
+.banner-text h2 {
+	font-size: 35px;
+}
+nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	border-bottom: none;
+	;
+}
+.features, .about, .portfolio, .contact, .testimonials {
+	padding: 50px 0px;
+}
+}
